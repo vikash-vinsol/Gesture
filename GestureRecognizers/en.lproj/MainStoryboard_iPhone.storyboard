@@ -1,0 +1,365 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="4514" systemVersion="13A603" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" initialViewController="2">
+    <dependencies>
+        <deployment defaultVersion="1280" identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="3746"/>
+    </dependencies>
+    <scenes>
+        <!--View Controller-->
+        <scene sceneID="5">
+            <objects>
+                <viewController id="2" customClass="ViewController" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="3">
+                        <rect key="frame" x="0.0" y="0.0" width="320" height="568"/>
+                        <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                        <subviews>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" id="PG9-Wv-H9S">
+                                <rect key="frame" x="0.0" y="20" width="320" height="548"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                            </imageView>
+                            <imageView opaque="NO" contentMode="scaleToFill" image="download.jpeg" id="5FC-RB-Dw4">
+                                <rect key="frame" x="20" y="52" width="128" height="128"/>
+                                <autoresizingMask key="autoresizingMask"/>
+                                <gestureRecognizers/>
+                                <connections>
+                                    <outletCollection property="gestureRecognizers" destination="oDY-4x-YkR" appends="YES" id="wVo-uI-bxY"/>
+                                    <outletCollection property="gestureRecognizers" destination="i3x-kt-O5u" appends="YES" id="evk-kq-njM"/>
+                                </connections>
+                            </imageView>
+                            <imageView opaque="NO" contentMode="scaleToFill" image="images.jpeg" id="216-Bh-bz5">
+                                <rect key="frame" x="172" y="52" width="128" height="128"/>
+                                <autoresizingMask key="autoresizingMask"/>
+                                <gestureRecognizers/>
+                                <connections>
+                                    <outletCollection property="gestureRecognizers" destination="GUj-ma-DDN" appends="YES" id="i0M-PM-ftU"/>
+                                    <outletCollection property="gestureRecognizers" destination="scL-Nw-7Fo" appends="YES" id="7SG-zA-lWl"/>
+                                </connections>
+                            </imageView>
+                            <imageView contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="smiley.png" id="Daj-vr-rST">
+                                <rect key="frame" x="172" y="308" width="128" height="128"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <gestureRecognizers/>
+                                <connections>
+                                    <outletCollection property="gestureRecognizers" destination="Jh1-OG-XbV" appends="YES" id="56A-Oc-MO5"/>
+                                    <outletCollection property="gestureRecognizers" destination="jE8-Xm-Kel" appends="YES" id="44r-dw-CTn"/>
+                                </connections>
+                            </imageView>
+                            <imageView contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="images.jpeg" id="jy1-A0-Jz8">
+                                <rect key="frame" x="20" y="314" width="138" height="128"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <gestureRecognizers/>
+                                <connections>
+                                    <outletCollection property="gestureRecognizers" destination="OIx-Yi-RC0" appends="YES" id="ciQ-nm-1Sk"/>
+                                    <outletCollection property="gestureRecognizers" destination="EcQ-0Q-Hlh" appends="YES" id="1bT-3E-GE4"/>
+                                </connections>
+                            </imageView>
+                            <view contentMode="scaleToFill" id="7D1-6F-ErZ">
+                                <rect key="frame" x="0.0" y="20" width="320" height="548"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <subviews>
+                                    <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" id="uxe-mq-7L2">
+                                        <rect key="frame" x="0.0" y="0.0" width="320" height="548"/>
+                                        <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                    </imageView>
+                                    <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" id="Q0R-N8-rSE">
+                                        <rect key="frame" x="20" y="161" width="70" height="70"/>
+                                        <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                        <state key="normal" backgroundImage="download.jpeg">
+                                            <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
+                                        </state>
+                                        <connections>
+                                            <action selector="buttonAction:" destination="2" eventType="touchUpInside" id="ydf-l0-f1z"/>
+                                        </connections>
+                                    </button>
+                                    <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" id="Hk0-Ga-8Ck">
+                                        <rect key="frame" x="90" y="161" width="70" height="70"/>
+                                        <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                        <state key="normal" backgroundImage="eight.jpeg">
+                                            <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
+                                        </state>
+                                        <connections>
+                                            <action selector="buttonAction:" destination="2" eventType="touchUpInside" id="Yp2-uC-sHR"/>
+                                        </connections>
+                                    </button>
+                                    <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" id="Tfo-yd-FmO">
+                                        <rect key="frame" x="160" y="163" width="70" height="70"/>
+                                        <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                        <state key="normal" backgroundImage="four.jpeg">
+                                            <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
+                                        </state>
+                                        <connections>
+                                            <action selector="buttonAction:" destination="2" eventType="touchUpInside" id="05f-ZF-Nha"/>
+                                        </connections>
+                                    </button>
+                                    <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" id="jNC-TJ-gxS">
+                                        <rect key="frame" x="230" y="163" width="70" height="70"/>
+                                        <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                        <state key="normal" backgroundImage="ifive.png">
+                                            <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
+                                        </state>
+                                        <connections>
+                                            <action selector="buttonAction:" destination="2" eventType="touchUpInside" id="roF-4N-9lD"/>
+                                        </connections>
+                                    </button>
+                                    <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" id="YIa-r7-h60">
+                                        <rect key="frame" x="20" y="301" width="70" height="70"/>
+                                        <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                        <state key="normal" backgroundImage="thirteen.jpeg">
+                                            <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
+                                        </state>
+                                        <connections>
+                                            <action selector="buttonAction:" destination="2" eventType="touchUpInside" id="Bzt-7r-sOl"/>
+                                        </connections>
+                                    </button>
+                                    <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" id="m8i-Cx-Zqz">
+                                        <rect key="frame" x="90" y="301" width="70" height="70"/>
+                                        <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                        <state key="normal" backgroundImage="ten.jpeg">
+                                            <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
+                                        </state>
+                                        <connections>
+                                            <action selector="buttonAction:" destination="2" eventType="touchUpInside" id="Sb4-wL-xdL"/>
+                                        </connections>
+                                    </button>
+                                    <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" id="lKr-N0-le7">
+                                        <rect key="frame" x="160" y="301" width="70" height="70"/>
+                                        <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                        <state key="normal" backgroundImage="three.jpg">
+                                            <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
+                                        </state>
+                                        <connections>
+                                            <action selector="buttonAction:" destination="2" eventType="touchUpInside" id="mnW-35-yeM"/>
+                                        </connections>
+                                    </button>
+                                    <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" id="SG6-8j-tbt">
+                                        <rect key="frame" x="230" y="302" width="70" height="70"/>
+                                        <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                        <state key="normal" backgroundImage="seven.jpeg">
+                                            <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
+                                        </state>
+                                        <connections>
+                                            <action selector="buttonAction:" destination="2" eventType="touchUpInside" id="i09-nF-CPb"/>
+                                        </connections>
+                                    </button>
+                                    <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" id="bgA-S8-xv5">
+                                        <rect key="frame" x="20" y="231" width="70" height="70"/>
+                                        <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                        <state key="normal" backgroundImage="images (1).jpeg">
+                                            <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
+                                        </state>
+                                        <connections>
+                                            <action selector="buttonAction:" destination="2" eventType="touchUpInside" id="beF-m6-7fO"/>
+                                        </connections>
+                                    </button>
+                                    <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" id="lSc-lw-5Pz">
+                                        <rect key="frame" x="90" y="231" width="70" height="70"/>
+                                        <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                        <state key="normal" backgroundImage="images (2).jpeg">
+                                            <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
+                                        </state>
+                                        <connections>
+                                            <action selector="buttonAction:" destination="2" eventType="touchUpInside" id="jdn-5s-n8m"/>
+                                        </connections>
+                                    </button>
+                                    <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" id="1EO-ob-81f">
+                                        <rect key="frame" x="160" y="231" width="70" height="70"/>
+                                        <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                        <state key="normal" backgroundImage="images.jpeg">
+                                            <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
+                                        </state>
+                                        <connections>
+                                            <action selector="buttonAction:" destination="2" eventType="touchUpInside" id="rcf-md-Brw"/>
+                                        </connections>
+                                    </button>
+                                    <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" id="F1H-vJ-ca2">
+                                        <rect key="frame" x="230" y="232" width="70" height="70"/>
+                                        <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                        <state key="normal" backgroundImage="nine.jpeg">
+                                            <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
+                                        </state>
+                                        <connections>
+                                            <action selector="buttonAction:" destination="2" eventType="touchUpInside" id="B5T-ic-Tmz"/>
+                                        </connections>
+                                    </button>
+                                    <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" id="dwz-NW-4fA">
+                                        <rect key="frame" x="89" y="95" width="142" height="30"/>
+                                        <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                        <state key="normal" title="Custom Background">
+                                            <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
+                                        </state>
+                                        <connections>
+                                            <action selector="customBackgroundAction:" destination="2" eventType="touchUpInside" id="ial-Vv-0py"/>
+                                        </connections>
+                                    </button>
+                                    <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" id="MLJ-DQ-wi4">
+                                        <rect key="frame" x="19" y="44" width="48" height="30"/>
+                                        <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                        <state key="normal" title="Cancel">
+                                            <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
+                                        </state>
+                                        <connections>
+                                            <action selector="CancelButtonCLick:" destination="2" eventType="touchUpInside" id="4qQ-WH-BXr"/>
+                                        </connections>
+                                    </button>
+                                </subviews>
+                                <color key="backgroundColor" red="0.71981525229999999" green="1" blue="0.82096448330000005" alpha="1" colorSpace="calibratedRGB"/>
+                            </view>
+                        </subviews>
+                        <color key="backgroundColor" cocoaTouchSystemColor="scrollViewTexturedBackgroundColor"/>
+                    </view>
+                    <navigationItem key="navigationItem" id="eJo-YR-cyE"/>
+                    <simulatedStatusBarMetrics key="simulatedStatusBarMetrics"/>
+                    <nil key="simulatedTopBarMetrics"/>
+                    <connections>
+                        <outlet property="cameraBackgroundImageView" destination="PG9-Wv-H9S" id="2na-s8-EGp"/>
+                        <outlet property="imageView" destination="5FC-RB-Dw4" id="mrP-Oj-rlz"/>
+                        <outlet property="imageViewFour" destination="Daj-vr-rST" id="lJK-Iv-KVr"/>
+                        <outlet property="imageViewThree" destination="jy1-A0-Jz8" id="31Y-1k-JFf"/>
+                        <outlet property="imageViewTwo" destination="216-Bh-bz5" id="Sc7-pj-HCo"/>
+                        <outlet property="settingBackgroundImageView" destination="uxe-mq-7L2" id="brf-Hz-fBK"/>
+                        <outlet property="settingView" destination="7D1-6F-ErZ" id="hNE-3T-43h"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="4" sceneMemberID="firstResponder"/>
+                <panGestureRecognizer minimumNumberOfTouches="1" id="oDY-4x-YkR">
+                    <connections>
+                        <action selector="handlePan:" destination="2" id="ZEZ-J7-Lag"/>
+                    </connections>
+                </panGestureRecognizer>
+                <panGestureRecognizer minimumNumberOfTouches="1" id="GUj-ma-DDN">
+                    <connections>
+                        <action selector="handlePan:" destination="2" id="VJo-bo-MfS"/>
+                    </connections>
+                </panGestureRecognizer>
+                <pinchGestureRecognizer id="i3x-kt-O5u">
+                    <connections>
+                        <action selector="handlePinch:" destination="2" id="az6-YR-BxK"/>
+                    </connections>
+                </pinchGestureRecognizer>
+                <pinchGestureRecognizer id="scL-Nw-7Fo">
+                    <connections>
+                        <action selector="handlePinch:" destination="2" id="ZfZ-By-1eE"/>
+                    </connections>
+                </pinchGestureRecognizer>
+                <panGestureRecognizer minimumNumberOfTouches="1" id="Jh1-OG-XbV">
+                    <connections>
+                        <action selector="handlePan:" destination="2" id="bCX-7g-w4a"/>
+                    </connections>
+                </panGestureRecognizer>
+                <pinchGestureRecognizer id="jE8-Xm-Kel">
+                    <connections>
+                        <action selector="handlePinch:" destination="2" id="2NR-ux-gIK"/>
+                    </connections>
+                </pinchGestureRecognizer>
+                <panGestureRecognizer minimumNumberOfTouches="1" id="OIx-Yi-RC0">
+                    <connections>
+                        <action selector="handlePan:" destination="2" id="dpv-1m-gwE"/>
+                    </connections>
+                </panGestureRecognizer>
+                <pinchGestureRecognizer id="EcQ-0Q-Hlh">
+                    <connections>
+                        <action selector="handlePinch:" destination="2" id="hUB-vc-sCR"/>
+                    </connections>
+                </pinchGestureRecognizer>
+            </objects>
+            <point key="canvasLocation" x="906" y="243"/>
+        </scene>
+        <!--Share View Controller-->
+        <scene sceneID="LfT-Nu-bBF">
+            <objects>
+                <viewController storyboardIdentifier="myViewControllersID" id="Ejh-UN-8e8" customClass="ShareViewController" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="xeU-ge-nUK">
+                        <rect key="frame" x="0.0" y="0.0" width="320" height="568"/>
+                        <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                        <subviews>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" id="Oyc-vg-0cz">
+                                <rect key="frame" x="137" y="82" width="34" height="30"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <state key="normal" title="Save">
+                                    <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
+                                </state>
+                                <connections>
+                                    <action selector="saveButton:" destination="Ejh-UN-8e8" eventType="touchUpInside" id="D6L-ka-jVX"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" id="Dez-bG-Hq5">
+                                <rect key="frame" x="137" y="167" width="38" height="30"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <state key="normal" title="Email">
+                                    <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
+                                </state>
+                                <connections>
+                                    <action selector="emailButton:" destination="Ejh-UN-8e8" eventType="touchUpInside" id="BiE-eh-Jpb"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" id="Sf4-JJ-uga">
+                                <rect key="frame" x="126" y="251" width="68" height="30"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <state key="normal" title="Facebook">
+                                    <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
+                                </state>
+                                <connections>
+                                    <action selector="facebookButton:" destination="Ejh-UN-8e8" eventType="touchUpInside" id="8TG-hb-uQM"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" id="MYU-fg-YFA">
+                                <rect key="frame" x="137" y="342" width="46" height="30"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <state key="normal" title="Twitter">
+                                    <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
+                                </state>
+                                <connections>
+                                    <action selector="twitterButton:" destination="Ejh-UN-8e8" eventType="touchUpInside" id="bWb-HI-TNz"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" id="MEw-tP-khE">
+                                <rect key="frame" x="8" y="9" width="48" height="30"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <state key="normal" title="Cancel">
+                                    <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
+                                </state>
+                                <connections>
+                                    <action selector="cancelButton:" destination="Ejh-UN-8e8" eventType="touchUpInside" id="NNZ-Bi-jda"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" id="kAo-hE-gyo">
+                                <rect key="frame" x="134" y="412" width="52" height="30"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <state key="normal" title="AirDrop">
+                                    <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
+                                </state>
+                                <connections>
+                                    <action selector="airDropButton:" destination="Ejh-UN-8e8" eventType="touchUpInside" id="C7d-mF-X97"/>
+                                </connections>
+                            </button>
+                        </subviews>
+                        <color key="backgroundColor" red="0.67479824952167555" green="1" blue="0.85140320215409337" alpha="1" colorSpace="calibratedRGB"/>
+                    </view>
+                    <navigationItem key="navigationItem" id="OJd-1a-Cov"/>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="EWu-5G-vlA" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="1433" y="243"/>
+        </scene>
+    </scenes>
+    <resources>
+        <image name="download.jpeg" width="284" height="177"/>
+        <image name="eight.jpeg" width="183" height="275"/>
+        <image name="four.jpeg" width="183" height="275"/>
+        <image name="ifive.png" width="183" height="275"/>
+        <image name="images (1).jpeg" width="183" height="275"/>
+        <image name="images (2).jpeg" width="183" height="275"/>
+        <image name="images.jpeg" width="284" height="177"/>
+        <image name="nine.jpeg" width="183" height="275"/>
+        <image name="seven.jpeg" width="250" height="375"/>
+        <image name="smiley.png" width="1024" height="1024"/>
+        <image name="ten.jpeg" width="183" height="275"/>
+        <image name="thirteen.jpeg" width="640" height="1136"/>
+        <image name="three.jpg" width="1920" height="1080"/>
+    </resources>
+    <simulatedMetricsContainer key="defaultSimulatedMetrics">
+        <simulatedStatusBarMetrics key="statusBar"/>
+        <simulatedOrientationMetrics key="orientation"/>
+        <simulatedScreenMetrics key="destination" type="retina4"/>
+    </simulatedMetricsContainer>
+</document>
